@@ -5,9 +5,3 @@ def linear_search(list_to_search, target):
             return True, counter
         counter += 1
     return False
-
-
-search_list = [12,453,6545,235,76576]
-target = 232
-
-print(linear_search(search_list, target))
